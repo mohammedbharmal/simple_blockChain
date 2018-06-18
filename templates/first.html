@@ -1,0 +1,51 @@
+<html>
+	<form action="http://localhost:5000/wallet" method="post">
+		<br><br><br><br><br>
+		<center>
+			<input type="submit" value="Create a new Wallet" name="wallet"/>
+		</center>
+	</form>
+	<br><br>
+	<form action="http://localhost:5000/transfer" method="post">
+		<center>
+			<hr /> <br/><br/>
+			<font size="5"> Transfer Coins </font>
+			<br/><br/>
+			<!--<input type="submit" value="Transfer Coins" name="transfer"/>-->
+			<table>
+			<tr>
+				<td> <font size="5"> Enter Your Wallet Address: </font> </td>
+				<td> <input type="text" name="wallet_s" size="50" /> </td>
+			</tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr>
+				<td> <font size="5"> Enter Your Private Key: </font> </td>
+				<td> <input type="text" name="private" size="50" /> </td>
+			</tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr>
+				<td> <font size="5"> Enter Receiver's Wallet Address: </font> </td>
+				<td> <input type="text" name="wallet_r" size="50" /> </td>
+			</tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr>
+				<td> <font size="5"> Enter Amount: </font> </td>
+				<td> <input type="text" name="amt" size="50" /> </td>
+			</tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr>
+				<td></td>
+				<td> <input type="submit" value="Transfer" /> </td>
+			</tr>
+		</table>
+		</center>
+	</form>
+</html>
