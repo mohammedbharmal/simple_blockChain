@@ -50,8 +50,8 @@ def dig_sign():
 	wallet_r = str(request.form['wallet_r'])
 	private_key = request.form['private']
 	amount = request.form['amt']
+	amount = amount.lstrip("0")
 	
-	#start validation
 	#check if sender address field is empty
 	if str(wallet_s) == "":
 		return "Sender's Address Not Specified"
