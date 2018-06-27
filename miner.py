@@ -1,4 +1,4 @@
-import hashlib,socket,_thread,pickle
+import hashlib,socket,pickle
 from datetime import datetime
 from bitcoin import *
 
